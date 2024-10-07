@@ -4,13 +4,13 @@ document.write(`<h1 align="center"> Weather Information Services</h1> <hr>
 
 var weather = prompt(`Enter current cities: 
 eg:
-   Hot,
-   Cold,
-   Fall,
-   Rainy,
-   Cloudy `);
+   hot,
+   cold,
+   fall,
+   rainy,
+   cloudy `).toLowerCase();
 
-if (weather === "Hot") {
+if (weather === "hot") {
   document.write(` <div class="card">
  <img src="assets/i'm-hot.gif" alt="Avatar" style="width:100%">
  <div class="container">
@@ -18,7 +18,7 @@ if (weather === "Hot") {
        <p>The sun blazes fiercely, turning the air into a blanket of heat. Every breeze feels warm, offering little relief from the sweltering day.</p>
   </div>
  </div>`);
-} else if (weather === "Cold") {
+} else if (weather === "cold") {
   document.write(` <div class="card">
         <img src="assets/cold.gif" alt="Avatar" style="width:100%">
         <div class="container">
@@ -26,7 +26,7 @@ if (weather === "Hot") {
           <p>A sharp chill lingers in the air, turning every breath into a misty puff. The ground crunches underfoot, and a frosty breeze bites gently at uncovered skin. </p>
          </div>
         </div>`);
-} else if (weather === "Fall") {
+} else if (weather === "fall") {
   document.write(` <div class="card">
         <img src="assets/fall.gif" alt="Avatar" style="width:100%">
         <div class="container">
@@ -34,7 +34,7 @@ if (weather === "Hot") {
        <p>A gentle breeze carries the crisp scent of fallen leaves, as golden hues blanket the earth. The air turns cooler, inviting cozy moments under the warm autumn sun.</p>
          </div>
         </div>`);
-} else if (weather === "Rainy") {
+} else if (weather === "rainy") {
   document.write(` <div class="card">
         <img src="assets/rainy.gif" alt="Avatar" style="width:100%">
         <div class="container">
@@ -42,7 +42,7 @@ if (weather === "Hot") {
           <p>Raindrops dance against the windows, creating a soothing rhythm that fills the air. The sky is draped in shades of gray, as fresh, earthy scents rise from the rain-soaked ground. </p>
          </div>
         </div>`);
-} else if (weather === "Cloudy") {
+} else if (weather === "cloudy") {
   document.write(` <div class="card">
         <img src="assets/cloudy.gif" alt="Avatar" style="width:100%">
         <div class="container">
